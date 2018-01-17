@@ -1,0 +1,758 @@
+/* line 17, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 13, ../scss/style.scss */
+body {
+  font-family: Helvetica, Arial, "LiHei Pro", "Microsoft JhengHei", "微軟正黑體", sans-serif;
+  font-size: 14px;
+  background-color: #f8f8f8;
+}
+
+/* line 18, ../scss/style.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 21, ../scss/style.scss */
+a {
+  text-decoration: none;
+}
+
+/*hr*/
+/* line 24, ../scss/style.scss */
+.divline {
+  height: 0px;
+  border: none;
+  clear: both;
+}
+
+/* line 31, ../scss/style.scss */
+.outwrap {
+  min-width: 980px;
+}
+
+/* line 36, ../scss/style.scss */
+.wrap {
+  position: relative;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 43, ../scss/style.scss */
+.container {
+  margin-top: 150px;
+}
+
+/* line 47, ../scss/style.scss */
+.cont {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/*h2*/
+/* line 59, ../scss/style.scss */
+.main-title {
+  color: #eb3612;
+  font-weight: bold;
+  font-size: 2.14em;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+/*h3*/
+/* line 66, ../scss/style.scss */
+.sub-title {
+  color: #333333;
+  font-weight: bold;
+  font-size: 1.7em;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+/*p*/
+/* line 73, ../scss/style.scss */
+.base-para {
+  color: #333333;
+  font-size: 1em;
+  line-height: 1.7em;
+}
+
+/* header */
+/* line 93, ../scss/style.scss */
+header {
+  position: fixed;
+  display: block;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #f8f8f8;
+}
+/* line 102, ../scss/style.scss */
+header:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: rgba(248, 248, 248, 0.5);
+}
+
+/*a*/
+/* line 114, ../scss/style.scss */
+.logo {
+  display: block;
+  float: left;
+  margin-top: 70px;
+  margin-left: 80px;
+  width: 200px;
+  height: 53px;
+  background-image: url("../images/header-logo.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* line 128, ../scss/style.scss */
+nav {
+  display: block;
+  float: right;
+  overflow: hidden;
+}
+
+/*ul*/
+/* line 134, ../scss/style.scss */
+.nav-list {
+  overflow: hidden;
+  margin-top: 100px;
+  margin-right: 10px;
+}
+
+/*li*/
+/* line 139, ../scss/style.scss */
+.nav-item {
+  display: block;
+  float: left;
+  margin-left: 5px;
+}
+
+/*a*/
+/* line 144, ../scss/style.scss */
+.nav-btn {
+  display: block;
+  width: 80px;
+  height: 1.3em;
+  line-height: 1.3em;
+  font-size: 1.14em;
+  text-align: center;
+  color: #333333;
+}
+/* line 152, ../scss/style.scss */
+.nav-btn:hover, .nav-btn.on {
+  background-color: #444444;
+  color: #f8f8f8;
+}
+
+/* index */
+/* line 173, ../scss/style.scss */
+.index-cont {
+  min-height: 720px;
+}
+
+/* line 176, ../scss/style.scss */
+.promo-block {
+  position: relative;
+  margin-top: 140px;
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+/* line 182, ../scss/style.scss */
+.promo-block:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 70px;
+  display: block;
+  width: 100%;
+  height: 260px;
+  background-image: url("../images/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/*ul*/
+/* line 198, ../scss/style.scss */
+.promo-list {
+  position: relative;
+  z-index: 2;
+  top: -30px;
+  width: 320px;
+  float: left;
+}
+
+/*img*/
+/* line 206, ../scss/style.scss */
+.promo-img {
+  height: 460px;
+}
+
+/* line 210, ../scss/style.scss */
+.promo-cont {
+  position: relative;
+  z-index: 2;
+  width: 530px;
+  float: left;
+  padding: 15px;
+  margin-top: 140px;
+  margin-left: 80px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+/*h3*/
+/* line 220, ../scss/style.scss */
+.promo-title {
+  color: #333333;
+  font-size: 1.14em;
+  font-weight: bold;
+  text-align: right;
+  line-height: 1.6em;
+}
+
+/*p*/
+/* line 227, ../scss/style.scss */
+.promo-info {
+  color: #333333;
+  font-size: 1em;
+  text-align: right;
+  line-height: 1.8em;
+}
+
+/* about */
+/* line 245, ../scss/style.scss */
+.about-cont {
+  margin-top: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+  background-color: #f2f2f2;
+}
+
+/*h2*/
+/* line 253, ../scss/style.scss */
+.about-title {
+  margin-left: 10px;
+}
+
+/*p*/
+/* line 256, ../scss/style.scss */
+.about-para {
+  margin-left: 10px;
+}
+
+/*img*/
+/* line 260, ../scss/style.scss */
+.about-logo {
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+}
+
+/* product */
+/* line 272, ../scss/style.scss */
+.product-cont {
+  padding-top: 80px;
+  padding-bottom: 180px;
+}
+
+/*h2*/
+/* line 277, ../scss/style.scss */
+.product-title {
+  text-align: center;
+}
+
+/*h3*/
+/* line 280, ../scss/style.scss */
+.product-sub-title {
+  text-align: center;
+}
+
+/*p*/
+/* line 283, ../scss/style.scss */
+.product-para {
+  display: block;
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* line 292, ../scss/style.scss */
+.pddetail-cont {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  overflow: hidden;
+}
+
+/* line 297, ../scss/style.scss */
+.pd-photo {
+  display: block;
+  float: left;
+  width: 640px;
+  min-height: 550px;
+}
+
+/*ul*/
+/* line 304, ../scss/style.scss */
+.photo-list {
+  display: block;
+  position: relative;
+  float: left;
+  width: 280px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+/*li*/
+/* line 312, ../scss/style.scss */
+.photo-item {
+  display: block;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 318, ../scss/style.scss */
+.photo-item:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/*img*/
+/* line 326, ../scss/style.scss */
+.photo-thumb {
+  display: inline-block;
+  max-height: 120px;
+  max-width: 150px;
+  vertical-align: middle;
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  opacity: 0.4;
+}
+/* line 333, ../scss/style.scss */
+.photo-thumb:hover, .photo-thumb.on {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/* line 339, ../scss/style.scss */
+.product-show {
+  display: block;
+  position: relative;
+  float: left;
+  width: 330px;
+  height: 520px;
+  padding: 15px;
+  overflow: hidden;
+  font-size: 0;
+}
+/* line 348, ../scss/style.scss */
+.product-show:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/*img*/
+/* line 356, ../scss/style.scss */
+.show-img {
+  display: inline-block;
+  max-width: 330px;
+  max-height: 520px;
+  vertical-align: middle;
+}
+
+/* line 364, ../scss/style.scss */
+.product-info {
+  display: block;
+  float: left;
+  width: 270px;
+  padding-left: 40px;
+  margin-top: 20px;
+}
+
+/*h3*/
+/* line 374, ../scss/style.scss */
+.pdinfo-title {
+  margin-bottom: 20px;
+}
+
+/*ul*/
+/*li*/
+/* line 382, ../scss/style.scss */
+.pdinfo-item {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 2em;
+}
+/* line 386, ../scss/style.scss */
+.pdinfo-item:before {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 1.6em;
+  background-image: url("../images/dot.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/*p*/
+/* line 400, ../scss/style.scss */
+.pdinfo-para {
+  display: inline-block;
+}
+
+/* line 406, ../scss/style.scss */
+.product-detail {
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*ul*/
+/* line 413, ../scss/style.scss */
+.paddetail-list {
+  width: 100%;
+  overflow: hidden;
+}
+
+/*li*/
+/* line 418, ../scss/style.scss */
+.pddetail-item {
+  display: block;
+  width: 180px;
+  float: left;
+  overflow: hidden;
+  margin-right: 10px;
+}
+/* line 424, ../scss/style.scss */
+.pddetail-item:nth-child(5) {
+  margin-right: 0px;
+}
+
+/*tb*/
+/* line 429, ../scss/style.scss */
+.detail-table {
+  display: block;
+  width: 180px;
+}
+/* line 432, ../scss/style.scss */
+.detail-table th, .detail-table td {
+  border: 1px solid #ccc;
+  padding: 3px;
+  color: #333333;
+  font-size: 1em;
+  line-height: 1.3em;
+}
+
+/*th*/
+/* line 441, ../scss/style.scss */
+th.detail-title-td {
+  text-align: center;
+  letter-spacing: 0.3em;
+  font-size: 1.1em;
+}
+
+/*td*/
+/* line 447, ../scss/style.scss */
+.detail-name-td {
+  width: 75px;
+  vertical-align: text-top;
+}
+
+/* contact */
+/* line 463, ../scss/style.scss */
+.contact-cont {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 180px;
+  margin-bottom: 100px;
+  background-color: #f2f2f2;
+}
+
+/*h2*/
+/* line 472, ../scss/style.scss */
+.contact-title {
+  text-align: right;
+  margin-right: 10px;
+}
+
+/*p*/
+/* line 476, ../scss/style.scss */
+.contact-des {
+  font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
+}
+
+/*p*/
+/* line 481, ../scss/style.scss */
+.hint {
+  color: #777;
+  font-size: 0.8em;
+  line-height: 1.7em;
+  text-align: right;
+  margin-right: 10px;
+}
+
+/* line 491, ../scss/style.scss */
+.contact-inner {
+  display: block;
+  width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*form*/
+/* line 501, ../scss/style.scss */
+.contact-form {
+  display: block;
+  width: 490px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 15px;
+  background-color: #eaeaea;
+  overflow: hidden;
+}
+
+/*ul*/
+/* line 513, ../scss/style.scss */
+.contact-list {
+  position: relative;
+  right: -10px;
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+/*li*/
+/* line 523, ../scss/style.scss */
+.contact-item {
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+/*li*/
+/* line 529, ../scss/style.scss */
+.s-item {
+  width: 50%;
+}
+
+/*li*/
+/* line 532, ../scss/style.scss */
+.l-item {
+  width: 100%;
+}
+
+/*label*/
+/* line 537, ../scss/style.scss */
+.contact-label {
+  display: inline-block;
+  width: 4.2em;
+  line-height: 25px;
+  color: #333333;
+  font-size: 1em;
+  font-weight: bold;
+}
+/* line 544, ../scss/style.scss */
+.contact-label span {
+  color: #eb3612;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+/* line 550, ../scss/style.scss */
+.phone-label {
+  width: 2.5em;
+}
+
+/*input*/
+/* line 553, ../scss/style.scss */
+.s-input {
+  width: 130px;
+  color: #333333;
+  height: 23px;
+  border: 1px solid #ccc;
+}
+
+/*input*/
+/* line 559, ../scss/style.scss */
+.l-input {
+  width: 307px;
+  color: #333333;
+  height: 23px;
+  border: 1px solid #ccc;
+}
+
+/*textarea*/
+/* line 567, ../scss/style.scss */
+.msg-txt {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 307px;
+  color: #333333;
+  height: 6em;
+  border: 1px solid #ccc;
+}
+
+/*a*/
+/* line 577, ../scss/style.scss */
+.submit-btn {
+  position: relative;
+  display: block;
+  float: right;
+  width: 80px;
+  margin-top: 10px;
+  margin-right: 65px;
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #f8f8f8;
+  line-height: 1.5em;
+  background-color: #eb3612;
+}
+/* line 593, ../scss/style.scss */
+.submit-btn:hover {
+  background-color: #f76042;
+}
+
+/* footer */
+/* line 609, ../scss/style.scss */
+footer {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/*p*/
+/* line 615, ../scss/style.scss */
+.footer-info {
+  display: block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 5px;
+  text-align: right;
+  line-height: 2em;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #333333;
+}
+/* line 624, ../scss/style.scss */
+.footer-info span {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*p*/
+/* line 629, ../scss/style.scss */
+.footer-copy {
+  display: block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 5px;
+  text-align: right;
+  line-height: 2em;
+}
+
+/*span*/
+/* line 637, ../scss/style.scss */
+.copy {
+  font-size: 0.8em;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  /* Retina-specific stuff here */
+}
